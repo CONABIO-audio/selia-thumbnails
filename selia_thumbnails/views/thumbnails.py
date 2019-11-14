@@ -23,7 +23,7 @@ def generate_thumbnail(request):
 
     try:
         image = get_thumbnail(item.item_thumbnail, size, crop=crop, quality=quality)
-    except:
+    except Exception as error:
         return HttpResponse(status=500)
 
     return redirect(image.url)
