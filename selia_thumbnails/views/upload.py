@@ -36,7 +36,6 @@ def upload(request):
     form = UploadForm(request.POST, request.FILES)
 
     if form.is_valid():
-        print('valid form')
         return process_valid_form(request, form)
 
     return JsonResponse({"result_type": "invalid_form", "result": form.errors}, status=400)

@@ -24,7 +24,8 @@ setup(
         'sorl-thumbnail',
         'librosa',
         'Pillow',
-        'numpy'
+        'numpy',
+        'matplotlib'
     ],
     classifiers=[
         'Environment :: Web Environment',
