@@ -2,7 +2,7 @@ attrs==19.3.0
 audioread==2.1.8
 cffi==1.13.2
 decorator==4.4.1
-Django==2.2.7
+Django==2.2.10
 importlib-metadata==0.23
 irekua-database==0.1.1
 irekua-dev-settings==0.1
