@@ -27,7 +27,9 @@ class UploadForm(ModelForm):
             "captured_on_second",
             "captured_on_timezone",
             "licence",
-            "tags"
+            "media_info",
+            "metadata",
+            "tags",
         ]
 
 
